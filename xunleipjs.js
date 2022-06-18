@@ -11,7 +11,7 @@
 /*
 【QuanX】
 [rewrite_local]
-^https:\/\/xluser-ssl\.xunlei\.com\/xluser\.core\.login\/v3\/getuserinfo url script-response-body xunleipjs.js
+^https:\/\/xluser-ssl\.xunlei\.com\/xluser\.core\.login\/v3\/getuserinfo url script-response-body https://github.com/510box/CRANK/raw/QuantumultX/xunleipjs.js
 
 
 【小火箭】
