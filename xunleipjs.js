@@ -11,12 +11,12 @@
 /*
 【QuanX】
 [rewrite_local]
-^https:\/\/xluser-ssl\.xunlei\.com\/xluser\.core\.login\/v3\/getuserinfo url script-response-body https://github.com/510box/CRANK/raw/QuantumultX/xunleipj.js
+^https:\/\/xluser-ssl\.xunlei\.com\/xluser\.core\.login\/v3\/getuserinfo url script-response-body https://github.com/510box/CRANK/raw/QuantumultX/xunleipjs.js
 
 
 【小火箭】
 
-迅雷破解 = type=http-response,script-path=https://github.com/510box/CRANK/raw/QuantumultX/xunleipj.js,pattern=^https:\/\/xluser-ssl\.xunlei\.com\/xluser\.core\.login\/v3\/getuserinfo,max-size=131072,requires-body=true,timeout=10,enable=true
+迅雷破解 = type=http-response,script-path=https://github.com/510box/CRANK/raw/QuantumultX/xunleipjs.js,pattern=^https:\/\/xluser-ssl\.xunlei\.com\/xluser\.core\.login\/v3\/getuserinfo,max-size=131072,requires-body=true,timeout=10,enable=true
 
 
 [mitm]
