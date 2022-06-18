@@ -11,7 +11,7 @@
 /*
 
 [rewrite_local]
-^https://open.daobanzhushou.cn/shiftassistant/rs/user/lidunka url script-response-body moudle.js
+^https://open.daobanzhushou.cn/shiftassistant/rs/user/lidunka url script-response-body https://github.com/510box/CRANK/raw/QuantumultX/dbzslds.js
 
 [mitm]
 hostname=open.daobanzhushou.cn
