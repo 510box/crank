@@ -11,6 +11,9 @@
 QuanX
 [rewrite_local]
 ^https:\/\/open\.daobanzhushou\.cn\/shiftassistant\/rs\/user\/lidunka url script-response-body https://github.com/510box/CRANK/raw/QuantumultX/dbzsld.js
+火箭
+[Script]
+倒班助手立盾会员 = type=http-response,script-path=https://github.com/510box/CRANK/raw/QuantumultX/dbzsld.js,pattern=^https:\/\/open\.daobanzhushou\.cn\/shiftassistant\/rs\/user\/lidunka,max-size=131072,requires-body=true,timeout=10,enable=true
 [mitm]
 hostname = open.daobanzhushou.cn
 */
