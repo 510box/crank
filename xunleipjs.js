@@ -27,8 +27,8 @@ hostname=xluser-ssl.xunlei.com
 */
 var body = $response.body;
 var obj = JSON.parse(body);
-var vipList=[{}];
-obj.vipList=[{
+var vipList={};
+obj.vipList={
       "expireDate": "2050-10-22",
       "isVip": "1",
       "isYear": "1",
@@ -38,6 +38,6 @@ obj.vipList=[{
       "vipDayGrow": "18",
       "vipGrow": "40010",
       "vipLevel": "8"
-}]
+}
 body = JSON.stringify(obj); 
 $done({body});
