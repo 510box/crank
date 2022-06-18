@@ -6,7 +6,7 @@
 // @
 // @Attention         请在本地使用此脚本，便于填写
 // ==/UserScript==
-https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo
+//https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo
 
 /*
 【QuanX】
