@@ -22,10 +22,6 @@ http-response ^https:\/\/open\.daobanzhushou\.cn\/shiftassistant\/rs\/user\/lidu
 [mitm]
 hostname = open.daobanzhushou.cn
 
-*/
-
-
-
 ‼️规则完全免费，仅供学习交流，🈲️商业用途
 */
 var body = $response.body;
