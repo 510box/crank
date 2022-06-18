@@ -25,9 +25,9 @@ var obj = JSON.parse(body);
 const vip = '/shiftassistant/rs/user/lidunka';
 
 if (url.indexOf(vip) != -1) {
-    obj.status = 1;
-    obj.remainDays = 999;
-    obj.remainMonths = 999;
+    obj.data.status = 1;
+    obj.data.remainDays = 999;
+    obj.data.remainMonths = 999;
     body = JSON.stringify(obj);
 }
 $done({body});
