@@ -10,7 +10,7 @@
 
 /*
 [rewrite_local]
-^https:\/\/open\.daobanzhushou\.cn\/shiftassistant\/rs\/user\/lidunka url script-response-body dbzsld.js
+^https:\/\/open\.daobanzhushou\.cn\/shiftassistant\/rs\/user\/lidunka url script-response-body https://github.com/510box/CRANK/raw/QuantumultX/dbzsld.js
 
 
 [mitm]
