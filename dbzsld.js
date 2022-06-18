@@ -9,12 +9,21 @@
 
 
 /*
+QuanX
 [rewrite_local]
 ^https:\/\/open\.daobanzhushou\.cn\/shiftassistant\/rs\/user\/lidunka url script-response-body https://github.com/510box/CRANK/raw/QuantumultX/dbzsld.js
-
-
 [mitm]
 hostname = open.daobanzhushou.cn
+
+moudle
+
+[Script]
+http-response ^https:\/\/open\.daobanzhushou\.cn\/shiftassistant\/rs\/user\/lidunka requires-body=1,max-size=-1,script-path=https://github.com/510box/CRANK/raw/QuantumultX/dbzsld.js
+[mitm]
+hostname = open.daobanzhushou.cn
+
+*/
+
 
 
 ‼️规则完全免费，仅供学习交流，🈲️商业用途
