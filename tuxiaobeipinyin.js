@@ -1,6 +1,6 @@
 // ==UserScript==
 // @@@@@@@@@@@@@     多路径模版
-// @Name             
+// @Name             兔小贝拼音
 // @Author           提着轮档追飞机
 // @TgChannel 
 // @WechatID                     
@@ -12,7 +12,7 @@
 【QuanX】
 [rewrite_local]
 
-^https:\/\/pinyin-api\.tuxiaobei\.com\/v1(\/top\/follow|\/user\/verify-token) url script-response-body tuxiaobeipinyin.js
+^https:\/\/pinyin-api\.tuxiaobei\.com\/v1(\/top\/follow|\/user\/verify-token) url script-response-body https://github.com/510box/CRANK/raw/QuantumultX/tuxiaobeipinyin.js
 
 
 
