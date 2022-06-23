@@ -1,5 +1,5 @@
 // ==UserScript==
-// @@@@@@@@@@@@@     多路径模版
+// @@@@@@@@@@@@@     
 // @Name             兔小贝拼音
 // @Author           提着轮档追飞机
 // @TgChannel 
@@ -17,7 +17,7 @@
 
 
 [mitm]
-hostname = userapi.hpplay.cn,
+hostname = pinyin-api.tuxiaobei.com,
 
 */
 
