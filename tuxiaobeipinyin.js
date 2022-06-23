@@ -14,7 +14,7 @@
 
 ^https:\/\/pinyin-api\.tuxiaobei\.com\/v1(\/top\/follow|\/user\/verify-token) url script-response-body https://github.com/510box/CRANK/raw/QuantumultX/tuxiaobeipinyin.js
 
-
+name = type=http-response,script-path=https://github.com/510box/CRANK/raw/QuantumultX/tuxiaobeipinyin.js,pattern=^https:\/\/pinyin-api\.tuxiaobei\.com\/v1(\/top\/follow|\/user\/verify-token),max-size=131072,requires-body=true,timeout=10,enable=true
 
 [mitm]
 hostname = pinyin-api.tuxiaobei.com,
