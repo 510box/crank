@@ -21,7 +21,7 @@ hostname = www.ssalegs.store,
 
 
 if ($request.url.indexOf("/cms/Appapi/username/username") != -1) {
-  re('"username":"\\w+"@"overduedate":\\d+@"overduedate2":\\d+@"point":\\d@"mobile":"\\d+"@"groupname":"[\u4e00-\u9fa5]+"@"jomkenylv":"\\d"', '"username":"大屌哥"@"overduedate":2028214025@"overduedate2":2028214025@"point":99999@"mobile":"18888888888"@"groupname":"官方认证"@"jomkenylv":"99"')
+  re('"overduedate":\\d+@"overduedate2":\\d+@"point":\\d@"mobile":"\\d+"@"groupname":"[\u4e00-\u9fa5]+"@"jomkenylv":"\\d"', '"overduedate":2028214025@"overduedate2":2028214025@"point":99999@"mobile":"18888888888"@"groupname":"官方认证"@"jomkenylv":"99"')
 }
 
 function re() {
