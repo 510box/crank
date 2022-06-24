@@ -12,10 +12,10 @@
 【QuanX】
 [rewrite_local]
 
-^https:\/\/ssalegs\.store\/cms\/Appapi\/username\/username url script-response-body https://github.com/510box/CRANK/raw/QuantumultX/sishepojie.js
+^https:\/\/www.ssalegs\.store\/cms\/Appapi\/username\/username url script-response-body https://github.com/510box/CRANK/raw/QuantumultX/sishepojie.js
 
 [mitm]
-hostname = ssalegs.store,
+hostname = www.ssalegs.store,
 
 */
 
