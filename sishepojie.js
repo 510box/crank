@@ -18,11 +18,11 @@
 
 【小火箭】
 
-name = type=http-response,script-path=https://github.com/510box/CRANK/raw/QuantumultX/xunleipjs.js,pattern=^https:\/\/www\.ssalegs\.store\/cms\/Appapi\/username\/username,max-size=131072,requires-body=true,timeout=10,enable=true
+name = type=http-response,script-path=https://github.com/510box/CRANK/raw/QuantumultX/sishepojie.js,pattern=^https:\/\/www\.ssalegs\.store\/cms\/Appapi\/username\/username,max-size=131072,requires-body=true,timeout=10,enable=true
 
 
 [mitm]
-hostname = userapi.hpplay.cn,
+hostname = ssalegs.store,
 
 */
 
