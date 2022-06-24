@@ -1,6 +1,6 @@
 // ==UserScript==
 // @@@@@@@@@@@@@     	
-// @Name             兔小贝数学解锁订阅，高级VIP
+// @Name             兔小贝英语解锁订阅，高级VIP
 // @Author           提着轮档追飞机
 // @TgChannel 
 // @WechatID                     
