@@ -12,14 +12,7 @@
 【QuanX】
 [rewrite_local]
 
-^https:\/\/www\.ssalegs\.store\/cms\/Appapi\/username\/username url script-response-body https://github.com/510box/CRANK/raw/QuantumultX/sishepojie.js
-
-
-
-【小火箭】
-
-name = type=http-response,script-path=https://github.com/510box/CRANK/raw/QuantumultX/sishepojie.js,pattern=^https:\/\/www\.ssalegs\.store\/cms\/Appapi\/username\/username,max-size=131072,requires-body=true,timeout=10,enable=true
-
+^https:\/\/ssalegs\.store\/cms\/Appapi\/username\/username url script-response-body https://github.com/510box/CRANK/raw/QuantumultX/sishepojie.js
 
 [mitm]
 hostname = ssalegs.store,
