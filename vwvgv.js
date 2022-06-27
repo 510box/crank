@@ -3,13 +3,13 @@
 // @Author           提着轮档接飞机
 // @TgChannel         
 // @WechatID          
-// @               https://cwvgv.xyz:8080
+// @               http://cwvgv.xyz:8080
 // @Attention         请在本地使用此脚本，便于填写
 // ==/UserScript==
 
 
 /*[rewrite_local]
-^https:\/\/cwvgv\.xyz:8080\/tantan\/mobile\/tantan\/user\/login url script-response-body https://github.com/510box/CRANK/raw/QuantumultX/vwvgv.js
+^http:\/\/cwvgv\.xyz:8080\/tantan\/mobile\/tantan\/user\/login url script-response-body https://github.com/510box/CRANK/raw/QuantumultX/vwvgv.js
 
 
 
