@@ -1,6 +1,6 @@
 // ==UserScript==
-// @@@@@@@@@@@@@     多路径模版
-// @Name             
+// @@@@@@@@@@@@@     
+// @Name             小星空
 // @Author           提着轮档追飞机
 // @TgChannel 
 // @WechatID                     
@@ -12,7 +12,7 @@
 【QuanX】
 [rewrite_local]
 
-^https？://slb\.orderorigin\.com(\/stars-p\/v2\/vip\/info\/purchase\/detail|\/stars-p\/v1\/user\/user-info|\/stars-p\/v1\/user\/my-info) url script-response-body xxk.js
+^https？://slb\.orderorigin\.com(\/stars-p\/v2\/vip\/info\/purchase\/detail|\/stars-p\/v1\/user\/user-info|\/stars-p\/v1\/user\/my-info) url script-response-body https://raw.githubusercontent.com/510box/CRANK/QuantumultX/xxk.js
 
 
 
