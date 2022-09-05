@@ -21,9 +21,10 @@ https://mdwy5.com/#/register?code=580580
 
 
 
-主机名MITM
+[mitm]
+hostname=fcapi.91por.vip
 
-fcapi.91por.vip
+
 
 
 */
