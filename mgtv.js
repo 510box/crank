@@ -17,7 +17,7 @@ https://mdwy5.com/#/register?code=580580
 
 [rewrite_local]
 
-^https:\/\/fcapi\.91por\.vip\/api\/video\/user\/info url script-response-body mgtv.js
+^https:\/\/fcapi\.91por\.vip\/api\/video\/user\/info url script-response-body https://github.com/510box/CRANK/raw/QuantumultX/mgtv.js
 
 
 
