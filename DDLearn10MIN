@@ -1,0 +1,19 @@
+/******************************
+ 
+🫧脚本名称:钉钉学习10分钟
+脚本只是学习讨论用，不许用于商业
+*******************************
+%¥
+[rewrite_local]
+^https?:\/\/saasold\.soke\.cn\/Api\/v1\.0\/index\.php\/Course\/CourseLesson\/startLearn.*? url script-response-body dingdinglearing10MIN.js
+
+
+[mitm]
+hostname = saasold.soke.cn
+%¥
+*******************************/
+var body=$response.body;
+body = body.replace(/"currentTime\":".*"/g,'"currentTime":"600"');
+body = body.replace(/"watchTime\":".*"/g,'"watchTime":"600"');
+body = body.replace(/"learnTime\":".*"/g,'"learnTime":"600"');
+$done(body);
