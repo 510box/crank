@@ -1,6 +1,6 @@
 /*
 [rewrite_local]
-https:\/\/saasold\.soke\.cn\/Api\/v1\.0\/index\.php\/Course\/CourseLesson\/startLearn url script-response-body https://github.com/510box/CRANK/QuantumultX/DDLearn10MIN.js
+https:\/\/saasold\.soke\.cn\/Api\/v1\.0\/index\.php\/Course\/CourseLesson\/startLearn url script-response-body https://github.com/510box/CRANK/blob/QuantumultX/DDLearn10MIN.js
 [mitm]
 hostname = saasold.soke.cn
 */
